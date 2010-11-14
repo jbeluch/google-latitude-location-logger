@@ -8,10 +8,14 @@ any cellphone that can run google latitude.  Useful for those who tend
 to "misplace" their cellphone a lot.  Figure out if you left your cell
 at the bar last night, or if it just got kicked under your bed.
 
+SETUP:
 You must enable google latitude and also enable the publicly availble 
 website badge in order to use this script.  The script pulls your 
 coordinates and then using an address lookup service to get an
 an approximate street address.
+
+Also, make sure to edit the script to include your badge API URL and
+the log file path.
 
 Schedule the script with cron for best results. 
 
